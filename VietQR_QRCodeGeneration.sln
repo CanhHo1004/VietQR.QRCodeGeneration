@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VietQR_QRCodeGeneration", "VietQR_QRCodeGeneration\VietQR_QRCodeGeneration.csproj", "{61ECC4C0-A8EB-492D-ABD0-32A70B377A28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61ECC4C0-A8EB-492D-ABD0-32A70B377A28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61ECC4C0-A8EB-492D-ABD0-32A70B377A28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61ECC4C0-A8EB-492D-ABD0-32A70B377A28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61ECC4C0-A8EB-492D-ABD0-32A70B377A28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BCAB7B6A-0510-47AD-AA17-DED5903B7E74}
+	EndGlobalSection
+EndGlobal
