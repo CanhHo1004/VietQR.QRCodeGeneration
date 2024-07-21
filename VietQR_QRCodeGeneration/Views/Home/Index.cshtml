@@ -1,26 +1,121 @@
-﻿<main>
-    <section class="row" aria-labelledby="aspnetTitle">
-        <h1 id="aspnetTitle">ASP.NET</h1>
-        <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.</p>
-        <p><a href="https://asp.net" class="btn btn-primary btn-md">Learn more &raquo;</a></p>
-    </section>
-    <div class="row">
-        <section class="col-md-4" aria-labelledby="gettingStartedTitle">
-            <h2 id="gettingStartedTitle">Getting started</h2>
-            <p>ASP.NET Web API is a framework that makes it easy to build HTTP services that reach
-            a broad range of clients, including browsers and mobile devices. ASP.NET Web API
-            is an ideal platform for building RESTful applications on the .NET Framework.</p>
-            <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301870">Learn more &raquo;</a></p>
-        </section>
-        <section class="col-md-4" aria-labelledby="librariesTitle">
-            <h2 id="librariesTitle">Get more libraries</h2>
-            <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-            <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301871">Learn more &raquo;</a></p>
-        </section>
-        <section class="col-md-4" aria-labelledby="hostingTitle">
-            <h2 id="hostingTitle">Web Hosting</h2>
-            <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-            <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301872">Learn more &raquo;</a></p>
-        </section>>
+﻿@model string
+@{
+    ViewBag.Title = "QRCode Generator";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>QRCode Payment Generator</h2>
+
+        @if (ViewBag.ErrorMessage != null)
+        {
+            <div class="alert alert-danger">@ViewBag.ErrorMessage</div>
+        }
+
+        <form method="get" action="/Home/Create">
+            <style>
+                .col-wrap {
+                    display: table;
+                    width: 100%;
+                }
+                .col {
+                    display: table-cell;
+                }
+                #bodyimage {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            </style>
+            <div class="col-wrap">
+                <div class="col">
+                    <div>
+                        <p>
+                            <label for="bankcode">Mã ngân hàng <font color="red">(*)</font>: </label>
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            <label for="accnumber">Số tài khoản <font color="red">(*)</font>: </label>
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            <label for="amount">Giá trị đơn hàng (<i>nếu có</i>):</label>
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            <label for="content">Nội dung thanh toán (<i>nếu có</i>):</label>
+                        </p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div>
+                        <p>
+                            <input type="text" id="bankcode" name="bankcode" value="@Model" />
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            <input type="text" id="accnumber" name="accnumber" value="@Model" />
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            <input type="text" id="amount" name="amount" value="@Model" />
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            <input type="text" id="content" name="content" value="@Model" />
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <p>
+                <div>
+                    <button type="submit" class="btn btn-primary">Khởi tạo</button>
+                </div>
+            </p>
+        </form>
+        @if (ViewBag.QrCodeImage != null)
+        {
+            <!-- Modal -->
+            <div class="modal fade" id="qrModal" tabindex="-1" role="dialog" aria-labelledby="qrModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="qrModalLabel">Kết quả tạo QRCode</h5>
+                        </div>
+                        <div class="modal-body" id="bodyimage">
+                            <img id="qrCodeImage" src="@ViewBag.QrCodeImage" class="img-fluid" alt="QR Code" />
+                        </div>
+                        <div class="modal-footer">
+                            <button id="closeButton" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <script>
+                $(document).ready(function () {
+                    $('#qrModal').modal('show');
+                });
+                $("#closeButton").click(function () {
+                    $('#qrModal').modal('hide');
+                });
+            </script>
+        }
     </div>
-</main>
+</body>
+</html>

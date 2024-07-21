@@ -1,30 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Work\\VietQR_QRCodeGeneration\\",
+  "WorkspaceRootPath": "D:\\Work\\VietQR.QRCodeGeneration\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{61ECC4C0-A8EB-492D-ABD0-32A70B377A28}|VietQR_QRCodeGeneration\\VietQR_QRCodeGeneration.csproj|d:\\work\\vietqr_qrcodegeneration\\vietqr_qrcodegeneration\\controllers\\qrcodegenerationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{61ECC4C0-A8EB-492D-ABD0-32A70B377A28}|VietQR_QRCodeGeneration\\VietQR_QRCodeGeneration.csproj|d:\\work\\vietqr.qrcodegeneration\\vietqr_qrcodegeneration\\controllers\\qrcodegenerationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{61ECC4C0-A8EB-492D-ABD0-32A70B377A28}|VietQR_QRCodeGeneration\\VietQR_QRCodeGeneration.csproj|solutionrelative:vietqr_qrcodegeneration\\controllers\\qrcodegenerationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61ECC4C0-A8EB-492D-ABD0-32A70B377A28}|VietQR_QRCodeGeneration\\VietQR_QRCodeGeneration.csproj|D:\\Work\\VietQR_QRCodeGeneration\\vietqr_qrcodegeneration\\controllers\\authorizationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61ECC4C0-A8EB-492D-ABD0-32A70B377A28}|VietQR_QRCodeGeneration\\VietQR_QRCodeGeneration.csproj|solutionrelative:vietqr_qrcodegeneration\\controllers\\authorizationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{61ECC4C0-A8EB-492D-ABD0-32A70B377A28}|VietQR_QRCodeGeneration\\VietQR_QRCodeGeneration.csproj|d:\\work\\vietqr.qrcodegeneration\\vietqr_qrcodegeneration\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61ECC4C0-A8EB-492D-ABD0-32A70B377A28}|VietQR_QRCodeGeneration\\VietQR_QRCodeGeneration.csproj|solutionrelative:vietqr_qrcodegeneration\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61ECC4C0-A8EB-492D-ABD0-32A70B377A28}|VietQR_QRCodeGeneration\\VietQR_QRCodeGeneration.csproj|D:\\Work\\VietQR_QRCodeGeneration\\vietqr_qrcodegeneration\\ultil\\bearauthattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61ECC4C0-A8EB-492D-ABD0-32A70B377A28}|VietQR_QRCodeGeneration\\VietQR_QRCodeGeneration.csproj|solutionrelative:vietqr_qrcodegeneration\\ultil\\bearauthattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61ECC4C0-A8EB-492D-ABD0-32A70B377A28}|VietQR_QRCodeGeneration\\VietQR_QRCodeGeneration.csproj|D:\\Work\\VietQR_QRCodeGeneration\\vietqr_qrcodegeneration\\ultil\\function.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{61ECC4C0-A8EB-492D-ABD0-32A70B377A28}|VietQR_QRCodeGeneration\\VietQR_QRCodeGeneration.csproj|D:\\Work\\VietQR.QRCodeGeneration\\vietqr_qrcodegeneration\\ultil\\function.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{61ECC4C0-A8EB-492D-ABD0-32A70B377A28}|VietQR_QRCodeGeneration\\VietQR_QRCodeGeneration.csproj|solutionrelative:vietqr_qrcodegeneration\\ultil\\function.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61ECC4C0-A8EB-492D-ABD0-32A70B377A28}|VietQR_QRCodeGeneration\\VietQR_QRCodeGeneration.csproj|D:\\Work\\VietQR_QRCodeGeneration\\vietqr_qrcodegeneration\\models\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61ECC4C0-A8EB-492D-ABD0-32A70B377A28}|VietQR_QRCodeGeneration\\VietQR_QRCodeGeneration.csproj|solutionrelative:vietqr_qrcodegeneration\\models\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61ECC4C0-A8EB-492D-ABD0-32A70B377A28}|VietQR_QRCodeGeneration\\VietQR_QRCodeGeneration.csproj|D:\\Work\\VietQR_QRCodeGeneration\\vietqr_qrcodegeneration\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{61ECC4C0-A8EB-492D-ABD0-32A70B377A28}|VietQR_QRCodeGeneration\\VietQR_QRCodeGeneration.csproj|solutionrelative:vietqr_qrcodegeneration\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,82 +22,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Work\\VietQR.QRCodeGeneration\\VietQR_QRCodeGeneration\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "VietQR_QRCodeGeneration\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Work\\VietQR.QRCodeGeneration\\VietQR_QRCodeGeneration\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "VietQR_QRCodeGeneration\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAowDMAAABoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T07:11:21.998Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "BearAuthAttribute.cs",
-              "DocumentMoniker": "D:\\Work\\VietQR_QRCodeGeneration\\VietQR_QRCodeGeneration\\Ultil\\BearAuthAttribute.cs",
-              "RelativeDocumentMoniker": "VietQR_QRCodeGeneration\\Ultil\\BearAuthAttribute.cs",
-              "ToolTip": "D:\\Work\\VietQR_QRCodeGeneration\\VietQR_QRCodeGeneration\\Ultil\\BearAuthAttribute.cs",
-              "RelativeToolTip": "VietQR_QRCodeGeneration\\Ultil\\BearAuthAttribute.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAADwvxIAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T02:03:21.084Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Web.config",
-              "DocumentMoniker": "D:\\Work\\VietQR_QRCodeGeneration\\VietQR_QRCodeGeneration\\Web.config",
-              "RelativeDocumentMoniker": "VietQR_QRCodeGeneration\\Web.config",
-              "ToolTip": "D:\\Work\\VietQR_QRCodeGeneration\\VietQR_QRCodeGeneration\\Web.config",
-              "RelativeToolTip": "VietQR_QRCodeGeneration\\Web.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-07-19T17:36:26.579Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Function.cs",
-              "DocumentMoniker": "D:\\Work\\VietQR_QRCodeGeneration\\VietQR_QRCodeGeneration\\Ultil\\Function.cs",
+              "DocumentMoniker": "D:\\Work\\VietQR.QRCodeGeneration\\VietQR_QRCodeGeneration\\Ultil\\Function.cs",
               "RelativeDocumentMoniker": "VietQR_QRCodeGeneration\\Ultil\\Function.cs",
-              "ToolTip": "D:\\Work\\VietQR_QRCodeGeneration\\VietQR_QRCodeGeneration\\Ultil\\Function.cs",
+              "ToolTip": "D:\\Work\\VietQR.QRCodeGeneration\\VietQR_QRCodeGeneration\\Ultil\\Function.cs",
               "RelativeToolTip": "VietQR_QRCodeGeneration\\Ultil\\Function.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwCgAAAAnAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAUwFMAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-19T17:19:46.976Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AuthorizationController.cs",
-              "DocumentMoniker": "D:\\Work\\VietQR_QRCodeGeneration\\VietQR_QRCodeGeneration\\Controllers\\AuthorizationController.cs",
-              "RelativeDocumentMoniker": "VietQR_QRCodeGeneration\\Controllers\\AuthorizationController.cs",
-              "ToolTip": "D:\\Work\\VietQR_QRCodeGeneration\\VietQR_QRCodeGeneration\\Controllers\\AuthorizationController.cs",
-              "RelativeToolTip": "VietQR_QRCodeGeneration\\Controllers\\AuthorizationController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAkwCwAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T16:25:57.652Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Response.cs",
-              "DocumentMoniker": "D:\\Work\\VietQR_QRCodeGeneration\\VietQR_QRCodeGeneration\\Models\\Response.cs",
-              "RelativeDocumentMoniker": "VietQR_QRCodeGeneration\\Models\\Response.cs",
-              "ToolTip": "D:\\Work\\VietQR_QRCodeGeneration\\VietQR_QRCodeGeneration\\Models\\Response.cs",
-              "RelativeToolTip": "VietQR_QRCodeGeneration\\Models\\Response.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T16:12:08.933Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "QRCodeGenerationController.cs",
-              "DocumentMoniker": "D:\\Work\\VietQR_QRCodeGeneration\\VietQR_QRCodeGeneration\\Controllers\\QRCodeGenerationController.cs",
+              "DocumentMoniker": "D:\\Work\\VietQR.QRCodeGeneration\\VietQR_QRCodeGeneration\\Controllers\\QRCodeGenerationController.cs",
               "RelativeDocumentMoniker": "VietQR_QRCodeGeneration\\Controllers\\QRCodeGenerationController.cs",
-              "ToolTip": "D:\\Work\\VietQR_QRCodeGeneration\\VietQR_QRCodeGeneration\\Controllers\\QRCodeGenerationController.cs",
+              "ToolTip": "D:\\Work\\VietQR.QRCodeGeneration\\VietQR_QRCodeGeneration\\Controllers\\QRCodeGenerationController.cs",
               "RelativeToolTip": "VietQR_QRCodeGeneration\\Controllers\\QRCodeGenerationController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAfAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAkwBsAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-19T16:00:23.024Z",
               "EditorCaption": ""
