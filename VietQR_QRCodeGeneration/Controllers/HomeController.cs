@@ -64,6 +64,11 @@ namespace VietQR_QRCodeGeneration.Controllers
                     }
                 }
             }
+            ViewBag.BankCode = bankcode;
+            ViewBag.AccNumber = accnumber;
+            ViewBag.Amount = amount;
+            ViewBag.Content = content;
+
             return View("Index");
         }
     }
