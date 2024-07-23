@@ -62,7 +62,14 @@
                 <div class="col">
                     <div>
                         <p>
-                            <input type="text" id="bankcode" name="bankcode" value="@Model" />
+                            @if (ViewBag.BankCode != null)
+                            {
+                                <input type="text" id="bankcode" name="bankcode" value="@ViewBag.BankCode" />
+                            }
+                            else
+                            {
+                                <input type="text" id="bankcode" name="bankcode" value="@Model" />
+                            }
                         </p>
                     </div>
                     <div>
