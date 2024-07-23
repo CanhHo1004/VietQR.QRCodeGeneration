@@ -74,17 +74,41 @@
                     </div>
                     <div>
                         <p>
-                            <input type="text" id="accnumber" name="accnumber" value="@Model" />
+                            @if (ViewBag.AccNumber != null)
+                            {
+                                <input type="text" id="accnumber" name="accnumber" value="@ViewBag.AccNumber" />
+                            }
+                            else
+                            {
+                                <input type="text" id="accnumber" name="accnumber" value="@Model" />
+                            }
+                            
                         </p>
                     </div>
                     <div>
                         <p>
-                            <input type="text" id="amount" name="amount" value="@Model" />
+                            @if (ViewBag.Amount != null)
+                            {
+                                <input type="text" id="amount" name="amount" value="@ViewBag.Amount" />
+                            }
+                            else
+                            {
+                                <input type="text" id="amount" name="amount" value="@Model" />
+                            }
+                            
                         </p>
                     </div>
                     <div>
                         <p>
-                            <input type="text" id="content" name="content" value="@Model" />
+                            @if (ViewBag.Content != null)
+                            {
+                                <input type="text" id="content" name="content" value="@ViewBag.Content" />
+                            }
+                            else
+                            {
+                                <input type="text" id="content" name="content" value="@Model" />
+                            }
+                            
                         </p>
                     </div>
                 </div>
