@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Web;
 using CRC;
+using System.Windows;
 
 namespace VietQR_QRCodeGeneration.Ultil
 {
@@ -132,6 +133,19 @@ namespace VietQR_QRCodeGeneration.Ultil
             }
 
             return result;
+        }
+
+        public static object readDataFromGoogleSheet(string spreadsheetId, string credentialsPath)
+        {
+
+            //string credentialsPath = Server.MapPath("~/path-to-your-credentials-file.json");
+            //spreadsheetId = "your-spreadsheet-id";
+
+            GoogleSheetsHelper helper = new GoogleSheetsHelper(credentialsPath);
+            string range = "Sheet1!A1:D10";
+            var values = helper.ReadEntries(spreadsheetId, range);
+
+            return values;
         }
     }
 }
