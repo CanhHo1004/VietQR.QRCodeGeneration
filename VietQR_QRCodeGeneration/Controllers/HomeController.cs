@@ -1,11 +1,14 @@
 ﻿using GSF;
 using QRCoder;
 using System;
+using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Imaging;
 using System.IO;
+using System.Linq;
 using System.Web.Mvc;
 using System.Web.WebPages;
+using VietQR_QRCodeGeneration.Models;
 using VietQR_QRCodeGeneration.Ultil;
 using static System.Net.Mime.MediaTypeNames;
 
@@ -15,6 +18,11 @@ namespace VietQR_QRCodeGeneration.Controllers
     {
         public ActionResult Index()
         {
+            var listBanks = new List<BankModel>();
+            listBanks = BankModel.GetListBanks();
+
+            ViewBag.ListBanks = new SelectList(listBanks.Select(x => new SelectListItem { Value = x.BankID.ToString(), Text = x.BankName}), "BankID", "BankName");
+
             return View();
         }
 

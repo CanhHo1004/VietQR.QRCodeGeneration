@@ -11,6 +11,8 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 </head>
 <body>
     <div class="container">
@@ -40,7 +42,7 @@
                 <div class="col">
                     <div>
                         <p>
-                            <label for="bankcode">Mã ngân hàng <font color="red">(*)</font> <a target="_blank" href="https://docs.google.com/document/d/1hb_IW0MbdrdWABpEbxQP_nbz3Gsg4ZTvwkV9-qFq1tM/edit">[Tham khảo]</a> : </label>
+                            <label for="bankcode">Mã ngân hàng <font color="red">(*)</font> <a target="_blank" href="https://docs.google.com/document/d/1hb_IW0MbdrdWABpEbxQP_nbz3Gsg4ZTvwkV9-qFq1tM/">[Danh sách ngân hàng hỗ trợ]</a> : </label>
                         </p>
                     </div>
                     <div>
@@ -62,14 +64,20 @@
                 <div class="col">
                     <div>
                         <p>
-                            @if (ViewBag.BankCode != null)
-                            {
-                                <input type="text" id="bankcode" name="bankcode" value="@ViewBag.BankCode" />
-                            }
-                            else
-                            {
-                                <input type="text" id="bankcode" name="bankcode" value="@Model" />
-                            }
+                            @*@if (ViewBag.BankCode != null)
+        {
+            <input type="text" id="bankcode" name="bankcode" value="@ViewBag.BankCode" />
+        }
+        else
+        {
+            <input type="text" id="bankcode" name="bankcode" value="@Model" />
+        }*@
+                            <select id="itemSelect" name="itemSelect" class="form-control">
+                                @foreach (var item in ViewBag.ListBanks)
+                                {
+                                    <option value="@item.BankID">@item.BankName</option>
+                                }
+                            </select>
                         </p>
                     </div>
                     <div>
@@ -144,6 +152,13 @@
                 });
                 $("#closeButton").click(function () {
                     $('#qrModal').modal('hide');
+                });
+
+                $(document).ready(function () {
+                    $('#itemSelect').select2({
+                        placeholder: 'Select an item',
+                        allowClear: true
+                    });
                 });
             </script>
         }
